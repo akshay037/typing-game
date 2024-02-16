@@ -81,7 +81,7 @@ function updateTime() {
 
 function gameOver() {
   endgameElement.innerHTML = `
-    <h1>Time ran out</h1>
+    <h1>Time ran out !!</h1>
     <p>Your final score is ${score}</p>
     <button onclick="history.go(0)">Play Again</button>
     `;
